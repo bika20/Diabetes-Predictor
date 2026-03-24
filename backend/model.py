@@ -1,7 +1,6 @@
 import joblib
 import numpy as np
 
-# Load model once
 model = joblib.load("diabetesmodel/diabetes_pipeline.pkl")
 
 def predict(data):

@@ -5,10 +5,9 @@ from model import predict
 
 app = FastAPI()
 
-# 🔥 VERY IMPORTANT (frontend connection)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # later restrict
+    allow_origins=["https://diabetes-predictor-khaki.vercel.app/"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
