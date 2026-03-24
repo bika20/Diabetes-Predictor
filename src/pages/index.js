@@ -8,7 +8,7 @@ export default function Home() {
 
   const [showModal, setShowModal] = useState(false);
 
-  // 🔥 Form State
+  // Form State
   const [formData, setFormData] = useState({
     pregnancies: "",
     glucose: "",
